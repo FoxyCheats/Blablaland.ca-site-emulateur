@@ -1,0 +1,47 @@
+#title {
+	font-family: sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+#equipe {
+    
+    margin: 50px;
+    border: 3px solid #f50085;
+    border-radius: 5px;
+}
+
+#equipe ul {
+	padding: 0;
+	margin-bottom: 0;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+#equipe ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px;
+}
+
+#equipe ul li p {
+	padding: 0;
+	font-size: 16px;
+	color: white;
+}
+
+.titleGroupe {
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	background-color: #f50085;
+}
+
+.imgStaff {
+	margin: 0 auto;
+}
+
+#equipe img {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+}

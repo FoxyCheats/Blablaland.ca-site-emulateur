@@ -1,0 +1,55 @@
+#header ~ .container {
+  background-color: #ffffff !important;
+}
+
+.footer-link {
+  color: #ff0077;
+  font-weight: bold;
+  font-size: 16px;
+  transition: ease-in-out 0.2s;
+  margin: 0 10px;
+}
+
+.footer-link:hover {
+  color: #fff;
+  text-decoration: none;
+  transition: ease-in-out 0.2s;
+}
+
+.alert {
+  color: rgb(70, 0, 0) !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: #ededed !important;
+}
+
+footer {
+  border-top: 10px solid #ad0051;
+  background-color: #680030;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-top: 174px;
+}
+
+.central {
+  min-height: 500px;
+}
+
+.text-information {
+  color: #ad0051;
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}

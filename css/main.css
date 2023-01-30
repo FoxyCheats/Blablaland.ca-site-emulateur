@@ -1,0 +1,15 @@
+html, body {
+    overflow-X:none;
+}
+
+footer {
+    border-top: 10px solid #BD54DB;
+    background-color: #f0f0f0;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.central {
+    min-height: 500px;
+}

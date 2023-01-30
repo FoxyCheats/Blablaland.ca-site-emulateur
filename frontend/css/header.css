@@ -1,0 +1,265 @@
+#banniere {
+  background-image: url(/frontend/img/header.png);
+  width: 100%;
+  height: 150px;
+}
+
+#ban {
+  background: center url(/frontend/img/header.png);
+  width: 100%;
+  height: 150px;
+}
+
+#header {
+  background-color: #ad0051;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 0;
+  z-index: 10;
+}
+
+@media only screen and (max-width: 991px) {
+  #header {
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 482px) {
+  #header {
+    height: 150px;
+  }
+}
+
+#header > li {
+  z-index: 10;
+}
+
+#header ul li {
+  list-style-type: none;
+  display: inline-block;
+  line-height: 50px;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  position: relative;
+}
+
+#header ul li a {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+}
+
+#header a:hover {
+  color: #e8e0ea;
+}
+
+#jouer {
+  background-color: #680030;
+}
+
+#jouer a {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#staff_menu {
+  background-color: black;
+  height: 30px;
+}
+
+#staff_menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+#staff_menu ul li a {
+  color: white;
+}
+
+.sub_menu {
+  display: none;
+  position: absolute;
+  background-color: #ad0051;
+  border-radius: 5px;
+}
+
+.sub_menu li {
+  width: 170px;
+}
+
+.lien {
+  font-size: 2px;
+}
+
+.contentWs {
+  display: none;
+}
+
+#header ul li:hover .sub_menu {
+  display: block;
+}
+
+#header ul li a:hover .sub_menu {
+  display: block;
+}
+
+#ban {
+  border-bottom: #680030 solid 5px;
+}
+
+.drop-down-separator {
+  border-color: #680030;
+}
+
+#account-manage-menu-dp > li {
+  background-color: #ad0051;
+  transition: ease-in-out 0.2s;
+}
+
+#account-manage-menu > a {
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+
+#account-manage-menu-dp > li > button {
+  color: #fff;
+  width: 175px;
+  margin-left: 5px;
+  padding: 0;
+}
+
+#account-manage-menu-dp > li.hoverable:hover {
+  background-color: #680030;
+  transition: ease-in-out 0.2s;
+}
+
+#account-manage-menu:hover #account-manage-menu-dp {
+  display: flex;
+  flex-direction: column;
+}
+
+#account-manage-menu:hover #account-manage-menu-dp li {
+  flex-basis: auto;
+}
+
+#account-manage-menu-dp {
+  background-color: #ad0051;
+  border: 5px solid #680030;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+#community-menu-dp > li {
+  background-color: #ad0051;
+  transition: ease-in-out 0.2s;
+}
+
+#community-menu > a {
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+
+#community-menu-dp > li > button {
+  color: #fff;
+  width: 175px;
+  margin-left: 5px;
+  padding: 0;
+}
+
+#community-menu-dp > li.hoverable:hover {
+  background-color: #680030;
+  transition: ease-in-out 0.2s;
+}
+
+#community-menu:hover #community-menu-dp {
+  display: flex;
+  flex-direction: column;
+}
+
+#community-menu:hover #community-menu-dp li {
+  flex-basis: auto;
+}
+
+#community-menu-dp {
+  background-color: #ad0051;
+  border: 5px solid #680030;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+#panel-menu-dp > li {
+  background-color: #ad0051;
+  transition: ease-in-out 0.2s;
+}
+
+#panel-menu > a {
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+
+#panel-menu-dp > li > button {
+  color: #fff;
+  width: 175px;
+  margin-left: 5px;
+  padding: 0;
+}
+
+#panel-menu-dp > li.hoverable:hover {
+  background-color: #680030;
+  transition: ease-in-out 0.2s;
+}
+
+#panel-menu:hover #panel-menu-dp {
+  display: flex;
+  flex-direction: column;
+}
+
+#panel-menu:hover #panel-menu-dp li {
+  flex-basis: auto;
+}
+
+#panel-menu-dp {
+  background-color: #ad0051;
+  border: 5px solid #680030;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+#community-menu {
+  z-index: 15;
+}
+
+#panel-menu {
+  z-index: 15;
+}
+
+#account-manager-menu {
+  z-index: 15;
+}
