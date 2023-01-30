@@ -1,0 +1,5 @@
+
+<params>
+	<scriptadr value="../scripts/"/>
+	<socket port="12301" host="154.49.216.178"/>
+</params>

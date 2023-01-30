@@ -1,0 +1,9 @@
+html, body {
+	background-image: url('https://zupimages.net/viewer.php?id=20/17/edd2.jpg');
+}
+
+.container {
+	margin: 20px;
+	padding: 5px;
+	background-color: lightgray;
+}
